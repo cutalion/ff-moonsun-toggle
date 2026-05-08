@@ -9,7 +9,7 @@
       "strict_min_version": "115.0"
     }
   },
-  "permissions": ["management", "storage"],
+  "permissions": ["management", "storage", "theme"],
   "background": {
     "scripts": ["background.js"]
   },
@@ -21,13 +21,13 @@
     },
     "theme_icons": [
       {
-        "light": "icons/night-day-dark.svg",
-        "dark": "icons/night-day-light.svg",
+        "light": "icons/night-day-light.svg",
+        "dark": "icons/night-day-dark.svg",
         "size": 16
       },
       {
-        "light": "icons/night-day-dark.svg",
-        "dark": "icons/night-day-light.svg",
+        "light": "icons/night-day-light.svg",
+        "dark": "icons/night-day-dark.svg",
         "size": 32
       }
     ]
