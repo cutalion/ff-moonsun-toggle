@@ -5,7 +5,7 @@
   "description": "One-click toolbar toggle that cycles between your custom theme, Dark, and Light. Icon: Uicons by Flaticon.",
   "browser_specific_settings": {
     "gecko": {
-      "id": "moonsun-toggle@cutalion",
+      "id": "moonsun-toggle-v2@cutalion",
       "data_collection_permissions": {
         "required": ["none"]
       },
