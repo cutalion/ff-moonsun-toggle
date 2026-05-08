@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Moonsun Toggle",
+  "version": "1.0.0",
+  "description": "One-click toolbar toggle that cycles between your custom theme, Dark, and Light. Icon: Uicons by Flaticon.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "moonsun-toggle@cutalion",
+      "strict_min_version": "115.0"
+    }
+  },
+  "permissions": ["management", "storage"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_title": "Toggle theme",
+    "default_icon": {
+      "16": "icons/night-day-dark.svg",
+      "32": "icons/night-day-dark.svg"
+    },
+    "theme_icons": [
+      {
+        "light": "icons/night-day-dark.svg",
+        "dark": "icons/night-day-light.svg",
+        "size": 16
+      },
+      {
+        "light": "icons/night-day-dark.svg",
+        "dark": "icons/night-day-light.svg",
+        "size": 32
+      }
+    ]
+  },
+  "icons": {
+    "48": "icons/night-day-dark.svg",
+    "96": "icons/night-day-dark.svg"
+  }
+}
