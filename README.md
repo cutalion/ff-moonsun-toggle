@@ -2,6 +2,12 @@
 
 A Firefox extension that adds a single toolbar button to cycle between your custom theme, Dark, and Light.
 
+## Why
+
+Many sites today ship both dark and light themes and switch automatically based on your system settings. But the same theme doesn't suit every kind of content: code with syntax highlighting often reads better in dark, while long-form text is easier on the eyes in light.
+
+Since the system setting drives all of these sites at once, switching it to suit one page changes every other tab too. Moonsun Toggle lets you flip your theme from a single toolbar button, so you can match the theme to whatever you're reading without digging through system preferences.
+
 ## Demo
 
 
